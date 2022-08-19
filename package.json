@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "workspaces": [
     "packages/*"
-    ],
+  ],
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -26,8 +26,8 @@
   "typings": "lib/index.d.ts",
   "peerDependencies": {
     "antd": ">=4.0.0",
-    "react":">=16.9.0",
-    "react-dom":">=16.9.0"
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
@@ -44,7 +44,8 @@
     ]
   },
   "dependencies": {
-    "react": "^18.0.0"
+    "react": ">=16.9.0",
+    "yjy-components-lib": "^1.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.15.1",
