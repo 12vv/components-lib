@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import CountdownBtn from './index';
+import { CountdownBtn } from 'yjy-components-lib';
 
 function CountdownBtnDemo() {
   const [loading, setLoading] = useState<boolean>(false);
@@ -20,17 +20,16 @@ function CountdownBtnDemo() {
   };
 
   return (
-    <div>hshs</div>
-    // <CountdownBtn
-    //   loading={loading}
-    //   onClick={async (completeCallback) => {
-    //     const code = await getCode();
-    //     console.log(`验证码：${code}`);
-    //     completeCallback();
-    //   }}
-    // >
-    //   获取验证码
-    // </CountdownBtn>
+    <CountdownBtn
+      loading={loading}
+      onClick={async (completeCallback) => {
+        const code = await getCode();
+        console.log(`验证码：${code}`);
+        completeCallback();
+      }}
+    >
+      获取验证码
+    </CountdownBtn>
   );
 }
 
