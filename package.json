@@ -48,20 +48,31 @@
     "yjy-components-lib": "^1.0.0"
   },
   "devDependencies": {
+    "@ant-design/compatible": "^1.1.2",
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^13.0.0",
     "@types/jest": "^27.0.3",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@umijs/fabric": "^2.8.1",
+    "@umijs/plugin-sass": "^1.1.1",
     "@umijs/test": "^3.0.5",
+    "ali-react-table": "^2.6.1",
     "antd": "^4.22.6",
     "babel-plugin-import": "^1.13.5",
     "dumi": "^1.1.0",
+    "echarts-for-react": "^3.0.2",
+    "echarts-stat": "^1.2.0",
     "father": "^4.0.0-rc.2",
+    "fg-loadcss": "^3.1.0",
     "gh-pages": "^3.0.0",
     "lint-staged": "^10.0.7",
+    "node-sass": "^7.0.1",
+    "numeral": "^2.0.6",
     "prettier": "^2.2.1",
+    "sass-loader": "^13.0.2",
+    "scriptjs": "^2.5.9",
+    "webfontloader": "^1.6.28",
     "yorkie": "^2.0.0"
   }
 }

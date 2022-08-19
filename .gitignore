@@ -25,3 +25,8 @@
 # ide
 /.vscode
 /.idea
+
+# private!!!
+/src/data-utils
+/src/EfficientTable
+/src/data-common-components
