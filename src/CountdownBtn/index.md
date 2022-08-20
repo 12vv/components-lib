@@ -17,4 +17,4 @@ group:
 
 <API></API>
 
-除以上 API 外，倒计时按钮还支持 Button 组件（Ant Design）的所有 API 。
+除以上 API 外，倒计时按钮还支持（Ant Design）Button 组件的所有 API 。
